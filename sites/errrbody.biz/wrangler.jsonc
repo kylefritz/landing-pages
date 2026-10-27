@@ -10,6 +10,6 @@
   },
   "routes": [
     { "pattern": "errrbody.biz", "custom_domain": true },
-    { "pattern": "www.errrbody.biz", "custom_domain": true }
+    { "pattern": "www.errrbody.biz/*", "zone_name": "errrbody.biz" }
   ]
 }
